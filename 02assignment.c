@@ -1,11 +1,14 @@
 #include<stdio.h>
 int main(){
-    int a;
+    int a,b, result;
+    b = 2;
     
     printf("Enter any number:");
     scanf("%d", &a);
 
-    if(a%2==0){
+    result= a % b;
+
+    if(result!=1){
         printf("Even number");
     }
 
